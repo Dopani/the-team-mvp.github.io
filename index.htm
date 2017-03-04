@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+	      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<style>
+	.hidden {
+		display: none;
+	}
+</style>
+<body>
+
+
+<div class="container">
+
+	<div class="masthead">
+		<h3 class="text-muted"></h3>
+	</div>
+
+	<div>
+		<img class="featurette-image img-fluid mx-auto" src="photo.jpg" alt="Team mvp">
+	</div>
+
+	<hr class="featurette-divider">
+
+	<div class="row featurette">
+		<div class="col-4">
+			<h2 class="featurette-heading">
+				Facebook
+			</h2>
+		</div>
+		<div class="col-8">
+			<p>
+				<a href="https://www.facebook.com/teammvp1026"> TEAM MVP Official (Korean)</a>
+			</p>
+			<p>
+				<a href="https://www.facebook.com/MVPSC2"> TEAM MVP Official (English)</a>
+			</p>
+		</div>
+	</div>
+
+	<hr class="featurette-divider">
+
+	<div class="row featurette">
+		<div class="col-4">
+			<h2 class="featurette-heading">
+				Twitter
+			</h2>
+		</div>
+		<div class="col-8">
+			<p>
+				<a href="https://twitter.com/MVP_GG"> TEAM MVP Official </a>
+			</p>
+		</div>
+	</div>
+
+	<hr class="featurette-divider">
+
+	<div class="row featurette">
+		<div class="col-4">
+			<h2 class="featurette-heading">
+				Youtube
+			</h2>
+		</div>
+		<div class="col-8">
+			<p>
+				<a href="https://www.youtube.com/channel/UCXQqRCxeBvbMDY33vR0h1hQ">TEAM MVP Official </a>
+			</p>
+		</div>
+	</div>
+
+	<hr class="featurette-divider">
+
+	<div class="row featurette">
+		<div class="col-4">
+			<h2 class="featurette-heading">
+				Twitch
+			</h2>
+		</div>
+		<div class="col-8 js_twitch">
+			<p class="hidden js_template">
+				<span class="badge js_team">Dota2 MVP Hot6</span>
+				<a href="https://www.twitch.tv/MVPReisen" class="js_link"> ReiSeN</a>
+			</p>
+		</div>
+	</div>
+
+	<hr class="featurette-divider">
+
+	<!-- Site footer -->
+	<footer class="footer">
+		<p>&copy; MVP</p>
+	</footer>
+
+</div> <!-- /container -->
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script>
+	var twitch_infos = [
+		['default', 'Dopani', 'Dota2 Manager', 'https://www.twitch.tv/MVPDopani'],
+		['default', 'Horror', 'Dota2 Coach', 'https://www.twitch.tv/MVPHorror'],
+		['primary','ReiSeN', 'MVP Hot6', 'https://www.twitch.tv/MVPReisen'],
+		['primary','Doctor', 'MVP Hot6', 'https://www.twitch.tv/MVPDoctor'],
+		['primary','Shuma', 'MVP Hot6', 'https://www.twitch.tv/MVPShuMa'],
+		['primary','Hazy', 'MVP Hot6', 'https://www.twitch.tv/MVPhazy'],
+		['primary','Grace', 'MVP Hot6', 'https://www.twitch.tv/MVPGrace'],
+		['primary','Light', 'MVP Hot6', 'https://www.twitch.tv/MVPLight'],
+		['primary','Hoonji', 'MVP Hot6', 'https://www.twitch.tv/MVPHoonji'],
+		['default','Rambo', 'CS:GO Coach', 'https://www.twitch.tv/MVPRambo'],
+		['success','ARGENCY', 'MVP Project', 'https://www.twitch.tv/MVPargency'],
+		['success','rindA', 'MVP Project', 'https://www.twitch.tv/MVPrindA'],
+		['success','hsk', 'MVP Project', 'https://www.twitch.tv/MVPhsk'],
+		['success','timon', 'MVP Project', 'https://www.twitch.tv/MVPtimon'],
+		['success','XigN', 'MVP Project', 'https://www.twitch.tv/MVPXigN'],
+		['info','termi', 'MVP PK', 'https://www.twitch.tv/MVPtermi'],
+		['info','solo', 'MVP PK', 'https://www.twitch.tv/MVPsolo'],
+		['info','glow', 'MVP PK', 'https://www.twitch.tv/MVPglow'],
+		['info','zeff', 'MVP PK', 'https://www.twitch.tv/MVPzeff'],
+		['info','peri', 'MVP PK', 'https://www.twitch.tv/MVPperi'],
+		['default','Coach815', 'HotS Manager', 'https://www.twitch.tv/MVP815'],
+		['warning','Ttsst', 'MVP BLACK', 'https://www.twitch.tv/MVPTtsst'],
+		['warning','merryday', 'MVP BLACK', 'https://www.twitch.tv/MVPmerryday'],
+		['warning','KyoCha', 'MVP BLACK', 'https://www.twitch.tv/MVPKyoCha'],
+		['warning','Sake', 'MVP BLACK', 'https://www.twitch.tv/MVPSake'],
+		['warning','Reset', 'MVP BLACK', 'https://www.twitch.tv/MVPReset'],
+		['danger','Hongcono', 'MVP Miracle', 'https://www.twitch.tv/MVPHongCono'],
+		['danger','Darvish', 'MVP Miracle', 'https://www.twitch.tv/MVPDarvish'],
+		['danger','Sniper', 'MVP Miracle', 'https://www.twitch.tv/MVPSniper'],
+		['danger','CrazyMoving', 'MVP Miracle', 'https://www.twitch.tv/MVPCrazyMoving'],
+		['danger','dami', 'MVP Miracle', 'https://www.twitch.tv/MVPdami'],
+		['default','nuGget', 'OW Manager', 'https://www.twitch.tv/MVPnuGget'],
+		['primary','MVPLarus', 'MVP infinity', 'https://www.twitch.tv/MVPlarus'],
+		['primary','MVPBrek', 'MVP infinity', 'https://www.twitch.tv/MVPbrek'],
+		['primary','MVPWhyNot', 'MVP infinity', 'https://www.twitch.tv/MVPwhynot'],
+		['primary','MVPOneFact', 'MVP infinity', 'https://www.twitch.tv/MVPonefact'],
+		['primary','MVPFywyn', 'MVP infinity', 'https://www.twitch.tv/MVPfywyn'],
+		['success','MVPKUKI', 'MVP Space', 'https://www.twitch.tv/MVPkuki'],
+		['success','MVPDaily', 'MVP Space', 'https://www.twitch.tv/MVPDDaily'],
+		['success','MVPclimax', 'MVP Space', 'https://www.twitch.tv/MVPclimax'],
+		['success','easybro', 'MVP Space', 'https://www.twitch.tv/MVPykz'],
+		['success','Undine', 'MVP Space', 'https://www.twitch.tv/MVPUndine'],
+		['success','Sylph', 'MVP Space', 'https://www.twitch.tv/MVPSylph']
+	];
+	var item_templatte = $('.js_twitch .js_template').clone().removeClass('hidden');
+	for (var index in twitch_infos) {
+		var item = item_templatte.clone();
+
+		var twitch_info = twitch_infos[index];
+		var group = twitch_info[0];
+		var id = twitch_info[1];
+		var team = twitch_info[2];
+		var link = twitch_info[3];
+
+		$('.js_team', item).addClass('badge-' + group).text(team);
+		$('.js_link', item).attr('href', link).text(id);
+
+		$('.js_twitch').append(item);
+	}
+</script>
+</body>
+</html>
